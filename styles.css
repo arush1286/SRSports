@@ -1,0 +1,131 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+p {
+    font-size: 1.2em;
+    color: #777;
+}
+
+/* Form section */
+.form-section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    width: 48%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Product list section */
+.list-section {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+.save-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: rgb(20, 69, 175);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-btn:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .form-group {
+        flex-direction: column;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
